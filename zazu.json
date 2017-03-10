@@ -1,0 +1,27 @@
+{
+  "name": "zazu-fkill",
+  "version": "1.0.0",
+  "description": "Zazu Plugin to kill processes with fkill",
+  "icon": "icon.png",
+  "blocks": {
+    "input": [
+      {
+        "id": "Processes",
+        "type": "PrefixScript",
+        "prefix": "kill",
+        "space": true,
+        "args": "Required",
+        "script": "src/index.js",
+        "connections": ["Open"]
+      }
+    ],
+    "output": [
+      {
+        "id": "Kill",
+        "type": "UserScript",
+        "script": "src/kill.js",
+        "connections": ["Open"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "zazu-fkill",
+  "version": "1.0.0",
+  "description": "Zazu Plugin to kill processes with fkill",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && jest"
+  },
+  "license": "MIT",
+  "author": "Chris Helgert",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrishelgert/zazu-fkill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chrishelgert/zazu-fkill/issues"
+  },
+  "homepage": "https://github.com/chrishelgert/zazu-fkill#readme",
+  "keywords": [
+    "zazu",
+    "fkill"
+  ],
+  "dependencies": {
+    "fkill": "^4.1.0",
+    "ps-list": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "husky": "^0.13.1",
+    "jest": "^18.1.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/src/*.js"
+    ]
+  }
+}

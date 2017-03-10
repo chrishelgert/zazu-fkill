@@ -1,0 +1,29 @@
+exports[`processes find filters processes with given input 1`] = `
+Array [
+  Object {
+    "subtitle": "zazu",
+    "title": "Zazu",
+    "value": 222,
+  },
+]
+`;
+
+exports[`processes find lists processes 1`] = `
+Array [
+  Object {
+    "subtitle": "node index.js",
+    "title": "node",
+    "value": 111,
+  },
+  Object {
+    "subtitle": "zazu",
+    "title": "Zazu",
+    "value": 222,
+  },
+  Object {
+    "subtitle": "atom",
+    "title": "Atom",
+    "value": 333,
+  },
+]
+`;
