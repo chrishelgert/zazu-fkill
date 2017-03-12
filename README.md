@@ -1,6 +1,7 @@
 # zazu-fkill
 
 [![Build Status](https://travis-ci.org/chrishelgert/zazu-fkill.svg?branch=master)](https://travis-ci.org/chrishelgert/zazu-fkill)
+[![Build status](https://ci.appveyor.com/api/projects/status/i50fi6ku8l9rotnq?svg=true)](https://ci.appveyor.com/project/chrishelgert/zazu-fkill)
 [![codecov](https://codecov.io/gh/chrishelgert/zazu-fkill/branch/master/graph/badge.svg)](https://codecov.io/gh/chrishelgert/zazu-fkill)
 
 > A [Zazu](https://github.com/tinytacoteam/zazu) Plugin to kill processes with [fkill](https://github.com/sindresorhus/fkill)
