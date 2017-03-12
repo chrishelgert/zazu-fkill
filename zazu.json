@@ -6,22 +6,28 @@
   "blocks": {
     "input": [
       {
-        "id": "Processes",
+        "id": "Process",
         "type": "PrefixScript",
         "prefix": "kill",
         "space": true,
         "args": "Required",
         "script": "src/index.js",
-        "connections": ["Open"]
+        "connections": ["Fkill"]
       }
     ],
     "output": [
       {
-        "id": "Kill",
+        "id": "Fkill",
         "type": "UserScript",
         "script": "src/kill.js",
-        "connections": ["Open"]
-      }
+        "connections": ["Notify"]
+      },
+      {
+       "id": "Notify",
+       "type": "SendNotification",
+       "title": "Fkill",
+       "message": "{value}"
+     }
     ]
   }
 }

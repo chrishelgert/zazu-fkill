@@ -1,7 +1,10 @@
 const fkill = require('fkill')
 
 module.exports = () => value => (
-  fkill(value)
+  new Promise((resolve) => {
     // eslint-disable-next-line no-console
-    .then(() => console.log(`killed process ${value}`))
+    fkill(value.id)
+      .then(() => resolve(`killed process "${value.name}"`))
+      .catch(() => resolve(`failed to kill process "${value.name}"`))
+  })
 )

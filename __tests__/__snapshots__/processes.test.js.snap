@@ -3,7 +3,10 @@ Array [
   Object {
     "subtitle": "zazu",
     "title": "Zazu",
-    "value": 222,
+    "value": Object {
+      "id": 222,
+      "name": "Zazu",
+    },
   },
 ]
 `;
@@ -13,17 +16,26 @@ Array [
   Object {
     "subtitle": "node index.js",
     "title": "node",
-    "value": 111,
+    "value": Object {
+      "id": 111,
+      "name": "node",
+    },
   },
   Object {
     "subtitle": "zazu",
     "title": "Zazu",
-    "value": 222,
+    "value": Object {
+      "id": 222,
+      "name": "Zazu",
+    },
   },
   Object {
     "subtitle": "atom",
     "title": "Atom",
-    "value": 333,
+    "value": Object {
+      "id": 333,
+      "name": "Atom",
+    },
   },
 ]
 `;

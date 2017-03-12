@@ -8,7 +8,10 @@ module.exports.find = input => (
         .map(process => ({
           title: process.name,
           subtitle: process.cmd,
-          value: process.pid,
+          value: {
+            id: process.pid,
+            name: process.name,
+          },
         }))
     )
 )

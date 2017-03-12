@@ -7,9 +7,9 @@
 
 ## Usage
 
-Simple type in `kill` with the process-name, choose the right one and the process will be killed.
+Simple type in `kill` with the process-name, choose the wished one and let it die.
 
-<!-- ![screenshot](./screenshot.png) -->
+![screenshot](./screenshot.png)
 
 ## Install
 
