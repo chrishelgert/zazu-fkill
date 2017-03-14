@@ -1,9 +1,38 @@
+exports[`processes find adds force to the result with --force 1`] = `
+Array [
+  Object {
+    "subtitle": "zazu",
+    "title": "Zazu",
+    "value": Object {
+      "force": true,
+      "id": 222,
+      "name": "Zazu",
+    },
+  },
+]
+`;
+
+exports[`processes find adds force to the result with -f 1`] = `
+Array [
+  Object {
+    "subtitle": "zazu",
+    "title": "Zazu",
+    "value": Object {
+      "force": true,
+      "id": 222,
+      "name": "Zazu",
+    },
+  },
+]
+`;
+
 exports[`processes find filters processes with given input 1`] = `
 Array [
   Object {
     "subtitle": "zazu",
     "title": "Zazu",
     "value": Object {
+      "force": false,
       "id": 222,
       "name": "Zazu",
     },
@@ -17,6 +46,7 @@ Array [
     "subtitle": "node index.js",
     "title": "node",
     "value": Object {
+      "force": false,
       "id": 111,
       "name": "node",
     },
@@ -25,6 +55,7 @@ Array [
     "subtitle": "zazu",
     "title": "Zazu",
     "value": Object {
+      "force": false,
       "id": 222,
       "name": "Zazu",
     },
@@ -33,6 +64,7 @@ Array [
     "subtitle": "atom",
     "title": "Atom",
     "value": Object {
+      "force": false,
       "id": 333,
       "name": "Atom",
     },

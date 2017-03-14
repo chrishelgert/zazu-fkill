@@ -40,5 +40,19 @@ describe('processes', () => {
           expect(result).toMatchSnapshot()
         })
     ))
+
+    test('adds force to the result with -f', () => (
+      processes.find('ZazU --force')
+        .then((result) => {
+          expect(result).toMatchSnapshot()
+        })
+    ))
+
+    test('adds force to the result with --force', () => (
+      processes.find('ZazU --force')
+        .then((result) => {
+          expect(result).toMatchSnapshot()
+        })
+    ))
   })
 })
