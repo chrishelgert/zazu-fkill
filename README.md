@@ -24,7 +24,7 @@ Add `chrishelgert/zazu-fkill` to your plugins block inside your `.zazurc.json` f
 
 ## Options
 
-Add `-f` or `--force` and the end of your query, to force kill the process.
+Add `-f` or `--force` and the end of your query to force kill the process.
 
 ## Contributing
 
