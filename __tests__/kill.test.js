@@ -11,8 +11,8 @@ describe('kill', () => {
   test('calls the fkill-function', () => {
     fkill.mockImplementation(() => new Promise(resolve => resolve()))
 
-    return kill()({ id: 111, name: 'zazu' }).then((result) => {
-      expect(fkill).toBeCalledWith(111)
+    return kill()({ id: 111, name: 'zazu', force: false }).then((result) => {
+      expect(fkill).toBeCalledWith(111, { force: false })
       expect(result).toBe('killed process "zazu"')
     })
   })
@@ -20,8 +20,8 @@ describe('kill', () => {
   test('returns error-message', () => {
     fkill.mockImplementation(() => new Promise((resolve, reject) => reject()))
 
-    return kill()({ id: 111, name: 'zazu' }).then((result) => {
-      expect(fkill).toBeCalledWith(111)
+    return kill()({ id: 111, name: 'zazu', force: true }).then((result) => {
+      expect(fkill).toBeCalledWith(111, { force: true })
       expect(result).toBe('failed to kill process "zazu"')
     })
   })
