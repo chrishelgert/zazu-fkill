@@ -1,5 +1,7 @@
 # zazu-fkill
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/chrishelgert/zazu-fkill.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/chrishelgert/zazu-fkill.svg?branch=master)](https://travis-ci.org/chrishelgert/zazu-fkill)
 [![Build status](https://ci.appveyor.com/api/projects/status/i50fi6ku8l9rotnq?svg=true)](https://ci.appveyor.com/project/chrishelgert/zazu-fkill)
 [![codecov](https://codecov.io/gh/chrishelgert/zazu-fkill/branch/master/graph/badge.svg)](https://codecov.io/gh/chrishelgert/zazu-fkill)
