@@ -3,6 +3,7 @@
 exports[`processes find adds force to the result with --force 1`] = `
 Array [
   Object {
+    "id": "Zazu",
     "subtitle": "zazu",
     "title": "Zazu",
     "value": Object {
@@ -17,6 +18,7 @@ Array [
 exports[`processes find adds force to the result with -f 1`] = `
 Array [
   Object {
+    "id": "Zazu",
     "subtitle": "zazu",
     "title": "Zazu",
     "value": Object {
@@ -31,6 +33,7 @@ Array [
 exports[`processes find filters processes with given input 1`] = `
 Array [
   Object {
+    "id": "Zazu",
     "subtitle": "zazu",
     "title": "Zazu",
     "value": Object {
@@ -45,6 +48,7 @@ Array [
 exports[`processes find lists processes 1`] = `
 Array [
   Object {
+    "id": "node",
     "subtitle": "node index.js",
     "title": "node",
     "value": Object {
@@ -54,6 +58,7 @@ Array [
     },
   },
   Object {
+    "id": "Zazu",
     "subtitle": "zazu",
     "title": "Zazu",
     "value": Object {
@@ -63,6 +68,7 @@ Array [
     },
   },
   Object {
+    "id": "Atom",
     "subtitle": "atom",
     "title": "Atom",
     "value": Object {
