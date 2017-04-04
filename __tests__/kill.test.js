@@ -18,7 +18,7 @@ describe('kill', () => {
   })
 
   test('returns error-message', () => {
-    fkill.mockImplementation(() => new Promise((resolve, reject) => reject()))
+    fkill.mockImplementation(() => new Promise((resolve, reject) => reject(new Error())))
 
     return kill()({ id: 111, name: 'zazu', force: true }).then((result) => {
       expect(fkill).toBeCalledWith(111, { force: true })

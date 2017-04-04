@@ -14,7 +14,7 @@ module.exports.find = (input = '') => {
         value: {
           id: process.pid,
           name: process.name,
-          force,
-        },
+          force
+        }
       })))
 }
