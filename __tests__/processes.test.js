@@ -7,18 +7,18 @@ const mockedResult = [
   {
     name: 'node',
     cmd: 'node index.js',
-    pid: 111,
+    pid: 111
   },
   {
     name: 'Zazu',
     cmd: 'zazu',
-    pid: 222,
+    pid: 222
   },
   {
     name: 'Atom',
     cmd: 'atom',
-    pid: 333,
-  },
+    pid: 333
+  }
 ]
 
 describe('processes', () => {
