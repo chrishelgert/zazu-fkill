@@ -23,7 +23,7 @@
   ],
   "dependencies": {
     "fkill": "^5.0.0",
-    "ps-list": "^3.1.0"
+    "ps-list": "^4.0.0"
   },
   "devDependencies": {
     "husky": "^0.14.0",
