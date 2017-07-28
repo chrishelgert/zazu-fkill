@@ -472,7 +472,7 @@ concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
 
-concat-stream@^1.4.8, concat-stream@^1.5.0, concat-stream@^1.5.2:
+concat-stream@^1.5.0, concat-stream@^1.5.2:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/concat-stream/-/concat-stream-1.6.0.tgz#0aac662fd52be78964d5532f694784e70110acf7"
   dependencies:
@@ -1119,6 +1119,13 @@ get-caller-file@^1.0.1:
 get-stdin@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-5.0.1.tgz#122e161591e21ff4c52530305693f20e6393a398"
+
+get-stream@^2.1.0:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-2.3.1.tgz#5f38f93f346009666ee0150a054167f91bdd95de"
+  dependencies:
+    object-assign "^4.0.1"
+    pinkie-promise "^2.0.0"
 
 get-stream@^3.0.0:
   version "3.0.0"
@@ -2034,12 +2041,12 @@ ndjson@^1.4.0:
     split2 "^2.1.0"
     through2 "^2.0.3"
 
-neat-csv@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/neat-csv/-/neat-csv-1.1.0.tgz#357a412f84b55b21160259945def3a70be30301c"
+neat-csv@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/neat-csv/-/neat-csv-2.1.0.tgz#06f58360c4c3b955bd467ddc85ae4511a3907a4c"
   dependencies:
-    concat-stream "^1.4.8"
     csv-parser "^1.6.0"
+    get-stream "^2.1.0"
     into-stream "^2.0.0"
 
 node-int64@^0.4.0:
@@ -2234,6 +2241,10 @@ pify@^2.0.0, pify@^2.2.0, pify@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
 
+pify@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/pify/-/pify-3.0.0.tgz#e5a4acd2c101fdf3d9a4d07f0dbc4db49dd28176"
+
 pinkie-promise@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/pinkie-promise/-/pinkie-promise-2.0.1.tgz#2135d6dfa7a358c069ac9b178776288228450ffa"
@@ -2305,13 +2316,12 @@ prr@~0.0.0:
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/prr/-/prr-0.0.0.tgz#1a84b85908325501411853d0081ee3fa86e2926a"
 
-ps-list@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/ps-list/-/ps-list-3.1.0.tgz#07d53822ee6724bbf687687b27a9aa22bfdbbeb4"
+ps-list@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/ps-list/-/ps-list-4.0.0.tgz#57c8b3d38161ee8977811cd32a5dc52237fdb299"
   dependencies:
-    pify "^2.2.0"
-    pinkie-promise "^2.0.0"
-    tasklist "^2.0.0"
+    pify "^3.0.0"
+    tasklist "^3.1.0"
 
 pseudomap@^1.0.1:
   version "1.0.2"
@@ -2749,13 +2759,12 @@ taskkill@^2.0.0:
     arrify "^1.0.0"
     execa "^0.1.1"
 
-tasklist@^2.0.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/tasklist/-/tasklist-2.1.0.tgz#53382e962e090adaf4c67d255057a97eec616e54"
+tasklist@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/tasklist/-/tasklist-3.1.0.tgz#873a98a4e45cbdecfa2c2ee18865353057e63696"
   dependencies:
-    neat-csv "^1.0.0"
+    neat-csv "^2.1.0"
     pify "^2.2.0"
-    pinkie-promise "^2.0.0"
     sec "^1.0.0"
 
 test-exclude@^4.0.0:
