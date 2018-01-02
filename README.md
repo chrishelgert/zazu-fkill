@@ -38,4 +38,4 @@ Add `-f` or `--force` and the end of your query to force kill the process.
 
 ## LICENSE
 
-Copyright (c) 2017 Chris Helgert. See [License](./LICENSE) for details.
+Copyright (c) 2017-present Chris Helgert. See [License](./LICENSE) for details.
