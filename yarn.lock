@@ -2771,12 +2771,9 @@ ps-list@^4.0.0:
     pify "^3.0.0"
     tasklist "^3.1.0"
 
-ps-list@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/ps-list/-/ps-list-5.0.1.tgz#3b2588cc291a8f2bd610d519002cfc64a88c99fd"
-  dependencies:
-    pify "^3.0.0"
-    tasklist "^3.1.0"
+ps-list@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/ps-list/-/ps-list-6.0.0.tgz#c0ec6b677b77ddbf24b0587fdbda187f7c8ea5c0"
 
 pseudomap@^1.0.2:
   version "1.0.2"
