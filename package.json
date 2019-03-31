@@ -22,7 +22,7 @@
     "fkill"
   ],
   "dependencies": {
-    "fkill": "^5.3.0",
+    "fkill": "^6.1.0",
     "ps-list": "^6.2.0"
   },
   "devDependencies": {
